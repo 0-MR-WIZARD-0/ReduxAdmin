@@ -1,0 +1,18 @@
+.app {
+    height: 100vh;
+    overflow-y: scroll;
+    background: #7b4397;
+    background: -webkit-linear-gradient(to right, #dc2430, #7b4397);
+    background: linear-gradient(to right, #dc2430, #7b4397);    
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 560px 440px;
+    max-width: 1040px;
+    margin: 0 auto;
+    padding-top: 50px;
+    &__interactive {
+        padding-left: 40px;
+    }
+}
